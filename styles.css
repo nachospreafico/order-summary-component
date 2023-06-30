@@ -1,0 +1,380 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@font-face {
+  font-family: RedHat;
+  src: url("./assets/fonts/RedHatDisplay-VariableFont_wght.ttf");
+}
+
+body {
+  margin: 0;
+  font-family: RedHat;
+  background-color: #e0e8ff;
+}
+
+.card {
+  background-color: white;
+  border-radius: 25px;
+  margin: 0 auto 3% auto;
+}
+
+.card-container {
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  border-radius: 25px;
+}
+
+.hero-img {
+  border-radius: 25px 25px 0 0;
+}
+
+.description {
+  text-align: center;
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+
+.plan-details {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 15px;
+}
+
+.plan,
+.title {
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+}
+
+.link {
+  font-weight: 700;
+}
+
+.cancel-btn,
+.proceed-btn {
+  font-family: RedHat;
+  border: 0;
+}
+
+.proceed-btn {
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 15px;
+  color: white;
+  font-weight: 700;
+}
+
+.cancel-btn {
+  background-color: transparent;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+@media only screen and (max-width: 426px) {
+  body {
+    padding: 5%;
+    background-color: #e0e8ff;
+  }
+
+  .desktop-bg {
+    display: none;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 1.7rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .plan-details {
+    margin-bottom: 5%;
+  }
+
+  .description {
+    width: 90%;
+    margin-bottom: 7%;
+  }
+
+  .proceed-btn {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    -moz-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+  }
+
+  .cancel-btn {
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 426px) and (max-width: 480px) {
+  body {
+    padding: 5%;
+    background-color: #e0e8ff;
+  }
+
+  .desktop-bg {
+    display: none;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 1.7rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .plan-details {
+    margin-bottom: 5%;
+  }
+
+  .description {
+    width: 90%;
+    margin-bottom: 7%;
+  }
+
+  .proceed-btn {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    -moz-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+  }
+
+  .cancel-btn {
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    padding: 10%;
+    background-color: #e0e8ff;
+  }
+
+  .card {
+    width: 60%;
+  }
+
+  .desktop-bg {
+    display: none;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 1.7rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .plan-details {
+    margin-bottom: 5%;
+  }
+
+  .description {
+    width: 90%;
+    margin-bottom: 7%;
+  }
+
+  .proceed-btn {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    -moz-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+  }
+
+  .cancel-btn {
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    padding: 10%;
+    background-color: #e0e8ff;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .desktop-bg {
+    display: none;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 1.7rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .plan-details {
+    margin-bottom: 5%;
+  }
+
+  .description {
+    width: 90%;
+    margin-bottom: 7%;
+  }
+
+  .proceed-btn {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    -moz-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+  }
+
+  .cancel-btn {
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1280px) {
+  body {
+    padding: 10%;
+    background-color: #e0e8ff;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  .desktop-bg {
+    display: none;
+  }
+
+  .title {
+    margin: 0;
+    font-size: 1.7rem;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .plan-details {
+    margin-bottom: 5%;
+  }
+
+  .description {
+    width: 90%;
+    margin-bottom: 7%;
+  }
+
+  .proceed-btn {
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 5%;
+    -webkit-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    -moz-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+  }
+
+  .cancel-btn {
+    margin-bottom: 3%;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  body {
+    padding-top: 5%;
+  }
+
+  .card {
+    width: 25%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-items: center;
+  }
+
+  .card-container {
+    border-radius: 0 0 25px 25px;
+    padding: 10%;
+  }
+
+  .title {
+    margin: 0;
+  }
+
+  .description {
+    margin: 5% 0 7% 0;
+  }
+
+  .hero-img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .plan-details {
+    margin-bottom: 7%;
+  }
+
+  .cancel-btn {
+    margin-bottom: 0;
+  }
+
+  .proceed-btn {
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+    width: 100%;
+    padding: 5%;
+    width: 100%;
+    padding: 5%;
+    margin-bottom: 7%;
+    -webkit-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    -moz-box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+    box-shadow: 0px 28px 16px -17px rgba(187, 204, 250, 1);
+  }
+
+  .link:hover {
+    color: #766cf1;
+    text-decoration: none;
+  }
+
+  .proceed-btn:hover {
+    background-color: #766cf1;
+    cursor: pointer;
+  }
+
+  .cancel-btn:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+  }
+}
